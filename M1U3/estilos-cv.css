@@ -1,0 +1,36 @@
+h1{
+    color: gold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: red;
+    text-align: center;
+}
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h5{
+    color: gold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: red;
+    text-align: center;
+}
+ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+
+}
+h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mark-III{ /* ¿como podria poner una imagen dentro de la caja? */
+    height: 250px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 43%;
+    border-top: 10px double #ff6550;
+    border-right: 10px double #ff6550;
+    border-bottom: 10px double #ff6550;
+    border-left: 10px double #ff6550;
+}
