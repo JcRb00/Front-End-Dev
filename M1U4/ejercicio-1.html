@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ejercicio-1</title>
+        <script type="text/javascript">
+            const distancia = prompt('Ingrese la distancia a recorrer:', '');
+            
+            //lo hice teniendo en cuenta que las distancias no pueden ser negativas, por eso el else
+            if (distancia > 0 && distancia <= 1000)
+            {
+                console.log("pie");
+            }
+            else if (distancia > 1000 && distancia <= 10000)
+            {
+                console.log("bicicleta");
+            }
+            else if (distancia > 10000 && distancia <= 30000)
+            {
+                console.log("colectivo");
+            }
+            else if (distancia > 30000 && distancia <= 100000)
+            {
+                console.log("auto");
+            }
+            else if (distancia > 100000) 
+            {
+                console.log("avion");
+            }
+            else
+            {
+                console.log("error, por favor ingrese un valor positivo");
+            }
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
