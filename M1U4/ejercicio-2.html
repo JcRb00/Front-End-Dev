@@ -5,13 +5,18 @@
     <title>ejercicio-2</title>
     <script type="text/javascript">
         
-        const numeros = [ 1, 5, 3, 8, 2]; //¿hacerlo con el array ordenado seria algo como "for( let i = 0; i < i+1 ; i++)"?
+        const numeros = [ 1, 5, 13, 8, 2, 6, 3]; 
 
-        for( let i = 0; i > i-1 ; i++ ) //i > i-1 --> entiendo que el 'i' que deberia mostrar es con esa condicion, pero recorriendo todo
+        let mayor = 0;
+        for(let i = 0; i < numeros.length ; i++) 
         {
-            console.log('el mayor es' + numeros[i]);
+            if( numeros[i] > mayor)
+            {
+                mayor = numeros[i];
+            }
         }
 
+        console.log('el mayor es ' + mayor);
     </script>
 </head>
 <body>
