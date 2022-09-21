@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio-cuadrados</title>
+</head>
+<body>
+    <div class="contenedor"> <!-- use de base la corrección, vi como hacerlo con botones pero entiendo no se pedía eso-->
+        <div class="cuadrado celeste" onclick="colorFondo('lightblue')"></div>
+        <div class="cuadrado naranja" onclick="colorFondo('orange')"></div>
+        <div class="cuadrado amarillo" onclick="colorFondo('yellow')"></div>
+    </div>
+    <style>
+        .contenedor 
+        {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+        }
+        .cuadrado
+        {
+            height: 120px;
+            width: 120px;
+            border-radius: 25px 25px 25px 25px;
+        }
+        .celeste
+        {
+            background-color: lightblue;
+        }
+        .naranja
+        {
+            background-color: orange;
+        }
+        .amarillo
+        {
+            background-color: yellow;
+        }
+    </style>
+    <script>
+        function colorFondo(color) 
+        {
+            document.querySelector('body').style.background = color;
+		}
+    </script>
+</body>
+</html>
